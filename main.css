@@ -1,0 +1,74 @@
+html {
+   font-size: 16px;
+}
+
+.body {
+    background-color: #808080;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter__input {
+    height: 4rem;
+    width: 13rem;
+    background-color: black;
+    color: rgba(0, 0, 0, .3);
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.counter__modify {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.5s linear;
+}
+
+.counter__modify:hover {
+    color: rgba(0, 0, 0, .3);
+}
+
+button, input {
+    background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+    background-image: linear-gradient(top, #f4f1ee, #fff);
+    border-radius: 20%;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+button.counter__modify {
+    height: 50px;
+    margin: 0 0px 15px 0;
+    width: 50px;
+}
+
+button.counter__alert {
+    height: 50px;
+    margin: 0 15px 50px 0;
+    width: auto;
+}
+
+
+.counter__alert {
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.5s linear;
+}
+
+.counter__alert:hover {
+    color: rgba(0, 0, 0, .3);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
